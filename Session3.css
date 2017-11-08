@@ -1,0 +1,30 @@
+body{
+   /*background: linear-gradient(to right, #ff8080, #ffe6e6);*/
+    background-image: url(vegeta5.jpg);
+    background-size: cover;
+    
+}
+h1{
+    font-family: monospace;
+    color: darkgray;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color:darkgrey;
+    margin: auto;
+}
+#circle{
+    font-size: 100px;
+    color: darkblue;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+#picture{
+    height: 100;
+    width: 100;
+    border: 5px solid black;
+    border-style: dashed;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+p{
+    color: yellow;
+}
+.boom{
+    color: peachpuff;
+}
+#pow{
+    color: skyblue;
+    border: solid gray;
+    background-color: violet;
+}

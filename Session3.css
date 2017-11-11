@@ -2,14 +2,23 @@ body{
    /*background: linear-gradient(to right, #ff8080, #ffe6e6);*/
     background-image: url(vegeta5.jpg);
     background-size: cover;
+    text-align: center;
     
 }
-h1, h2, h3 {
-    font-family: monospace;
+body h1 {
     color: blue;
-    text-align: center;
-    text-shadow: 2px 2px black;
 }
+
+body div h1{
+    color: yellow;
+}
+.specclass{
+   color:black;
+}
+#specid{
+    color:gray;
+}
+
 .square{
     height: 100px;
     width: 100px;

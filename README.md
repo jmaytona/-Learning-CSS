@@ -9,3 +9,5 @@ Exercise 2-2nd exercise from devslopes. Topic:CSS
 Session 3.1-CSS Descendants and Child Selectors (Used Ordered and Unordered list)
 
 Session 3.2-CSS Groupings
+
+Session3.3-CSS Specificity

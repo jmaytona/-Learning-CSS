@@ -11,3 +11,6 @@ Session 3.1-CSS Descendants and Child Selectors (Used Ordered and Unordered list
 Session 3.2-CSS Groupings
 
 Session3.3-CSS Specificity
+
+Exercise 3-Used Descendants, Child Selectors, Groupings and Specificity
+

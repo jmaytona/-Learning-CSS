@@ -1,35 +1,25 @@
 body{
    /*background: linear-gradient(to right, #ff8080, #ffe6e6);*/
+/*
     background-image: url(vegeta5.jpg);
     background-size: cover;
     text-align: center;
-    
-}
-body h1 {
-    color: blue;
+*/
+    font-family: "Tahoma", serif, sans-serif;
+    text-align: Center;
 }
 
+h1 {
+    font-style: oblique;
+}
 body div h1{
-    color: yellow;
+    font-size: 50px;
 }
-.specclass{
-   color:black;
-}
-#specid{
-    color:gray;
-}
-
-.square{
-    height: 100px;
-    width: 100px;
-    background-color:darkgrey;
-    margin: auto;
-}
-#circle{
-    font-size: 100px;
-    color: darkblue;
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
+a{
+    text-decoration: overline;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    color: darkred;
 }
 #picture{
     height: 100;

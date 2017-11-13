@@ -1,0 +1,17 @@
+body{
+    font-family: 'Lobster';
+    text-align: center;
+}
+
+a{
+    text-decoration: overline;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    color: darkred;
+}
+#picture{
+    height: 100;
+    width: 100;
+    border: 5px solid black;
+    border-style: dashed;
+}

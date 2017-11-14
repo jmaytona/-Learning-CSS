@@ -1,32 +1,33 @@
+
 body{
-   /*background: linear-gradient(to right, #ff8080, #ffe6e6);*/
-/*
-    background-image: url(vegeta5.jpg);
-    background-size: cover;
-    text-align: center;
-*/
-    font-family: "Tahoma", serif, sans-serif;
-    text-align: Center;
+    font-family: 'Lobster';
+    background-color: darkgray;
 }
 
-h1 {
-    font-style: oblique;
-}
-body div h1{
-    font-size: 50px;
-}
+
 a{
     text-decoration: overline;
     letter-spacing: 10px;
     word-spacing: 30px;
     color: darkred;
 }
-#picture{
-    height: 100;
-    width: 100;
-    border: 5px solid black;
-    border-style: dashed;
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    opacity: 0.7;
+    
 }
+.picture{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 2px;
+}
+/*
 ul li{
     font-size: 20px;
     color: blue;
@@ -34,3 +35,4 @@ ul li{
 ul > li{
     color: yellow;
 }
+*/

@@ -15,8 +15,8 @@ img{
     max-width: 100%;
     height: auto;
     padding: 5px;
-    display: block;
-    margin: auto;
+    margin-bottom: 60px;
+    margin-left: 40%;
     opacity: 0.7;
     
 }
@@ -26,6 +26,12 @@ img{
     border-radius: 50%;
     border: 3px solid black;
     padding: 2px;
+}
+.but{
+    border-radius: 12px;
+    color: crimson;
+    padding: 20px 20px 20px 20px;
+    margin-left: 45%;
 }
 /*
 ul li{

@@ -16,3 +16,5 @@ Exercise 3-Used Descendants, Child Selectors, Groupings and Specificity
 
 Session 3.4-CSS Formatting and Text/Font Styles
 
+Session 3.5-Images, Opacity, and Border Radius
+

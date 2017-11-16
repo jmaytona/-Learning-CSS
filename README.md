@@ -18,3 +18,5 @@ Session 3.4-CSS Formatting and Text/Font Styles
 
 Session 3.5-Images, Opacity, and Border Radius
 
+Session 3.6-Padding and Margin
+

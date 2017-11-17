@@ -20,3 +20,5 @@ Session 3.5-Images, Opacity, and Border Radius
 
 Session 3.6-Padding and Margin
 
+Session 3.7-Rows and Column
+

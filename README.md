@@ -12,7 +12,7 @@ Session 3.2-CSS Groupings
 
 Session 3.3-CSS Specificity
 
-Exercise 3-Used Descendants, Child Selectors, Groupings and Specificity
+Exercise 3-Used Descendants, Child Selectors, Groupings and Specificity #(Updated)
 
 Session 3.4-CSS Formatting and Text/Font Styles
 
@@ -22,6 +22,6 @@ Session 3.6-Padding and Margin
 
 Session 3.7-Rows and Column
 
-Session 4.1-Navigation Bar
+#Session 4.1-Navigation Bar
 
-Project 1-Home Page
+#Project 1-Home Page

@@ -37,3 +37,18 @@ ul.topnav li a:hover {
     background-color: lightblue;
     color: white;
 }
+
+ul.topnav li.dropdown {
+    display: none;
+}
+
+/*########################MediaQuery#######################*/
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdown {
+    display: block;
+        float: right;
+}
+

@@ -83,10 +83,14 @@ input[type="text"] {
     font-size: 20px;
     width: 400px;
     min-width: 100px;
+    border-radius: 7px;
 }
 
 .left-side-col {
     margin-left: 20%;
+}
+.right-side-col {
+    margin-right: 5%;
 }
 
 
@@ -132,8 +136,24 @@ input[type="text"] {
     }
     
     ul.topnav.responsive li a {
-        display: block;
         text-align: left;
+    }
+    .left-side-col, .right-side-col {
+        margin: 15px;
+    }
+    .col-6 {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .vidContainer video {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    input[type="text"] {
+        width: 200px;
     }
     
 }

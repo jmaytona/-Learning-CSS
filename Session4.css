@@ -85,6 +85,10 @@ input[type="text"] {
     min-width: 100px;
 }
 
+.left-side-col {
+    margin-left: 20%;
+}
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}

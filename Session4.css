@@ -10,6 +10,11 @@ label {
     font-weight: 600;
     font-size: 20px;
 }
+p {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
 /*#####################NavBar#############################*/
 nav {
     width: 100%;
@@ -102,6 +107,7 @@ input[type="text"] {
     
 }
 .box {
+    text-align: center;
     background-color: white;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
         0 2px 3px 0 rgba(0, 0, 0, .1)

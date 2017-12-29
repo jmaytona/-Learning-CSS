@@ -109,6 +109,7 @@ input[type="text"] {
 .box {
     text-align: center;
     margin: 24px;
+    border-radius: 7px;
     padding: 36px 24px 40px 24px
     background-color: white;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
@@ -168,7 +169,7 @@ input[type="text"] {
     .left-side-col, .right-side-col {
         margin: 15px;
     }
-    .col-6 {
+    .col-6, .col-4 {
         display: block;
         margin: 0;
         width: 100%;

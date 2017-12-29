@@ -26,4 +26,8 @@ Exercise 4-Updated
 
 Session 4.1-Navigation Bar
 
+Update Session 4/html - Includes Paragraph and box
+
+Update Session 4/css - center items inside the box, add padding
+
 #Project 1-Home Page

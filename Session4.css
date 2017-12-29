@@ -108,6 +108,8 @@ input[type="text"] {
 }
 .box {
     text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px
     background-color: white;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
         0 2px 3px 0 rgba(0, 0, 0, .1)
@@ -115,7 +117,6 @@ input[type="text"] {
 .icon {
 
 }
-
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -130,6 +131,9 @@ input[type="text"] {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+* {
+    box-sizing: border-box;
+}
 
 
 /*########################MediaQuery#######################*/

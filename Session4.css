@@ -11,7 +11,7 @@ label {
     font-size: 20px;
 }
 p {
-    font-size: 28px;
+    font-size: 15px;
     line-height: 1.2;
 }
 
@@ -103,20 +103,31 @@ input[type="text"] {
 }
 .headtitle {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     
 }
 .box {
     text-align: center;
     margin: 24px;
     border-radius: 7px;
-    padding: 36px 24px 40px 24px
+    padding: 36px 24px 40px 24px;
     background-color: white;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
         0 2px 3px 0 rgba(0, 0, 0, .1)
 }
-.icon {
-
+.seemore {
+    height: 50px;
+    width: 130px;
+    background-color: lightblue;
+    color: gray;
+    font-family: cursive;
+    font-weight: 550;
+    border-radius: 7px;
+    box-shadow: 40px
+}
+.buttonsee {
+    text-align: center;
+    margin: auto;
 }
 
 .col-1 {width: 8.33%;}

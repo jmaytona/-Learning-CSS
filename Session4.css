@@ -15,6 +15,12 @@ p {
     line-height: 1.2;
 }
 
+article p {
+    font-size: 20px;
+    padding: 0px 25px;
+    
+}
+
 /*#####################NavBar#############################*/
 nav {
     width: 100%;
@@ -129,6 +135,13 @@ input[type="text"] {
     text-align: center;
     margin: auto;
 }
+.collage img {
+    height: 240px;
+    width: 480px;
+    text-align: center;
+    margin: auto;
+    box-shadow: -2px -2px 5px 5px rgba(0, 0, 0, .2), 2px 2px 5px 5px rgba(0, 0, 0, .2);
+}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -180,7 +193,7 @@ input[type="text"] {
     .left-side-col, .right-side-col {
         margin: 15px;
     }
-    .col-6, .col-4 {
+    .col-6, .col-4, .col-7, .col-5 {
         display: block;
         margin: 0;
         width: 100%;
@@ -191,10 +204,15 @@ input[type="text"] {
         margin: 0;
         overflow: hidden;
     }
+    .collage img {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 7px;
+        overflow: hidden;
+    }
     input[type="text"] {
         width: 200px;
     }
     
 }
-
-

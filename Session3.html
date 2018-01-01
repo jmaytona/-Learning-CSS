@@ -1,57 +1,173 @@
 <!doctype html>
-<html>
-    <!--Padding and Margin-->
+<html lang="en">
     <head>
-        <title>CSS Basics</title>
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Gloria+Hallelujah|Lobster" rel="stylesheet">
-        <link rel=stylesheet href="Session3.css">
+        <title>AEAC</title>
+        <link rel="stylesheet" href="Session4.css">
     </head>
     <body>
-<!--
-        <h1>Using Google Fonts</h1>
-        <div><h1>Used Lobster Font</h1></div>
-        <h1>Type Google.com/fonts</h1>
--->
-    <div class="row">
-      <div class="col-5"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-6"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-1"><img src="vegeta9.jpg" class="picture"></div>
-    </div>
-    <div class="row">
-      <div class="col-1"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-5"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-6"><img src="vegeta9.jpg" class="picture"></div>
-    </div>
-    <div class="row">
-      <div class="col-2"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-2"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-4"><img src="vegeta9.jpg" class="picture"></div>
-      <div class="col-4"><img src="vegeta9.jpg" class="picture"></div>
-    </div>
-<!--
-        <a href="#"> Click Me Now!</a>
-        <p>Dont Slap me a******</p>
-        <p>Cool I don't even know what to say</p>
-        <p>Whaterver dude</p>
-        <p>I'm a bit confuse</p>
-        <p>Just hang in there</p>
-        <p>This is the last part</p>
--->
-<!--
-        <ul>
-            <li>I love video games</li>
-            <li>Here are the list of the games that i recently finished</li>
-            <ol>
-                <li>Watchdogs</li>
-                <li>Tomb raider DE</li>
-                <li>FF Type 0</li>
-                <li>Resident Evil Revelations 2</li>
-                <li>Resident Evil 6</li>
-                <li>MGS Groudnd Zero</li>
-            </ol>
-            <li>I'm currently playing Metal Gear Phantom Pain</li> 
-        </ul>
--->
-    </body>
+<!-----------------------Navbar(page2)------------------------>
+        <nav>
+            <ul class="topnav" id="dropdownID">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#catering">Catering</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="topnav-right"><a href="#signin">Sign In</a></li>
+                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+                <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>      
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownID");
+                if (x.className === "topnav"){
+                    x.className += " responsive";
+                }
+                /*Change topnav to topnav.responsive*/
+            else {
+                x.className = "topnav";
+            }
+          }
+        </script>
+<!-----------------------Login(page1)---------------------------->   
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="left-side-col">
+                        <h1 class="large">Celebrate Life!</h1>
+                        <h1 class="large">Aytona Events and Catering</h1>
+                    </div>
+                    <form>
+                        <div class="left-side-col">
+                            <h2>Email Address</h2>
+                            <input class="inputbox" name="emailadd" type="text" placeholder="Email Add">
+                            <h2>Password</h2>
+                            <input class="inputbox" name="password" type="text" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class= "right-side-col">
+                    <div class= "vidContainer">
+                    <video width="320" height="240" controls>
+                        <source src="Adobe%20Spark%20Video.mp4" type="video/mp4">
+                        Your browser doesnt support this video
+                    </video>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-----------------------Header(page2)------------------------>
+        <header>
+            <h1 class="headtitle">Aytona Events and Catering</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="box">
+                                <div class="icon">
+                                <img src="logo1.PNG">
+                                </div>
+                                <label>Menus</label>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-4">
+                            <div class="box">
+                                <div class="icon">
+                                <img src="logo1.PNG">
+                                </div>
+                                <label>Offers</label>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-4">
+                            <div class="box">
+                                <div class="icon">
+                                <img src="logo1.PNG">
+                                </div>
+                                <label>Schedule</label>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"</p>
+                            </div>
+                        </div>
+                    </div>                    
+                <div class="row">
+                    <div class="col-12">
+                        <div class="buttonsee">
+                        <button class="seemore">See More</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+<!-----------------------Article(page3)------------------------>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <article>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"
+                        </p>
+                        </article>
+                    </div>
+                    <div class="col-5">
+                        <div class="collage">
+                            <img src="collage3_2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+<!-----------------------Footer(page4)------------------------>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 mobilefooter">
+                        <div class="compfooter">
+                        <h1>Company</h1>
+                            <ul>
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                    </div>   
+                    <div class="col-3 mobilefooter">
+                        <div class="compfooter ">
+                        <h1>Company</h1>
+                            <ul>
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-3 mobilefooter">
+                        <div class="compfooter">
+                        <h1>Company</h1>
+                            <ul>
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 mobilefooter">
+                        <div class="compfooter">
+                        <h1>Company</h1>
+                            <ul>
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </footer>
 
+    </body>
 </html>

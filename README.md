@@ -30,4 +30,4 @@ Update Session 4/html - Includes Paragraph and box
 
 Update Session 4/css - center items inside the box, add padding
 
-Session 4 Finished Project (CSS Tutorial Devslopes
+Session 4 Finished Project (CSS Tutorial Devslopes) 
